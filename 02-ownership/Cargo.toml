@@ -1,0 +1,20 @@
+[package]
+name = "ownership"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "ownership1"
+path = "src/ownership1.rs"
+
+[[bin]]
+name = "ownership2"
+path = "src/ownership2.rs"
+
+[[bin]]
+name = "copy_trait"
+path = "src/copy_trait.rs"
+
+[dependencies]
