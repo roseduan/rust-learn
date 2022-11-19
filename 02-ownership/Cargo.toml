@@ -17,4 +17,16 @@ path = "src/ownership2.rs"
 name = "copy_trait"
 path = "src/copy_trait.rs"
 
+[[bin]]
+name = "borrow1"
+path = "src/borrow_1.rs"
+
+[[bin]]
+name = "borrow2"
+path = "src/borrow_2.rs"
+
+[[bin]]
+name = "rc"
+path = "src/rc.rs"
+
 [dependencies]

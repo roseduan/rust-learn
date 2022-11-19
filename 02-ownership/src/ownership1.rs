@@ -2,7 +2,6 @@ fn main() {
     let data = vec![1, 2, 3, 4, 5];
     let v = 50;
 
-
     // data 传递过去之后，所有权发生了转移
     if let Some(pos) = find_pos(data, v) {
         println!("find pos: {:?}", pos);
