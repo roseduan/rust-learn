@@ -1,0 +1,24 @@
+[package]
+name = "lifecycle"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "lifecycle1"
+path = "src/lifecycle_1.rs"
+
+[[bin]]
+name = "lifecycle2"
+path = "src/lifecycle_2.rs"
+
+[[bin]]
+name = "lifecycle3"
+path = "src/lifecycle_3.rs"
+
+[[bin]]
+name = "exercise_strtok"
+path = "src/exercise_strtok.rs"
+
+[dependencies]
