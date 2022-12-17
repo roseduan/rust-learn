@@ -14,7 +14,7 @@ fn main() {
     println!("hello = {}, s1 = {}, ss = {}", hello, s1, ss);
 }
 
-pub fn strtok<'a> (s: &mut &'a str, delimiter: char) -> &'a str {
+pub fn strtok<'a>(s: &mut &'a str, delimiter: char) -> &'a str {
     if let Some(i) = s.find(delimiter) {
         let prefix = &s[..i];
 

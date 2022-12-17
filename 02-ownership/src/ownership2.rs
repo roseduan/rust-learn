@@ -7,6 +7,6 @@ fn main() {
     // println!("data: {:?}", data) // 报错
 }
 
-fn sum(data:  Vec<u32>) -> u32 {
+fn sum(data: Vec<u32>) -> u32 {
     data.iter().fold(0, |acc, x| acc + x)
 }

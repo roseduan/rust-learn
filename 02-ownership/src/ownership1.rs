@@ -5,7 +5,7 @@ fn main() {
     // data 传递过去之后，所有权发生了转移
     if let Some(pos) = find_pos(data, v) {
         println!("find pos: {:?}", pos);
-    } else{
+    } else {
         println!("did not find pos")
     }
 

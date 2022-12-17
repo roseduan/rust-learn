@@ -5,10 +5,10 @@ fn main() {
     println!("first of s1: {}", res);
 }
 
-fn first(s: &str) ->&str {
+fn first(s: &str) -> &str {
     let trimmed = s.trim();
     match trimmed.find(' ') {
         None => "",
-        Some(pos) => &trimmed[..pos]
+        Some(pos) => &trimmed[..pos],
     }
 }

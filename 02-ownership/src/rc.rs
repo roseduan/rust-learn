@@ -1,4 +1,4 @@
-use std::{rc::Rc, cell::RefCell};
+use std::{cell::RefCell, rc::Rc};
 
 // Rust 中的智能引用计数 Rc 和 ARC
 fn main() {
@@ -21,7 +21,7 @@ fn main() {
     let user_ptr1 = Rc::new(user1);
 
     println!("id = {},name = {}", user_ptr1.id, user_ptr1.name);
-    
+
     // Rc 拿到的是不可变引用，所以这里不能对 User 结构体进行修改
     // user_ptr1.set_name(String::from("roseduan11"));
 
@@ -48,10 +48,8 @@ struct User {
 
 impl User {
     fn new(id: u64, name: String) -> User {
-        Self {
-            id, name
-        }
-    }    
+        Self { id, name }
+    }
 
     fn set_name(&mut self, name: String) {
         self.name = name;

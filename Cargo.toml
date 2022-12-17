@@ -3,5 +3,6 @@
 members = [
     "02-ownership",
     "03-lifecycle",
-    "04-memmange"
+    "04-memmange",
+    "05-typesystem"
 ]

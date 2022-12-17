@@ -17,7 +17,7 @@ fn main() {
 // }
 
 // 添加了生命周期标识符之后，就能编译通过了
-fn max<'a> (s1: &'a str, s2: &'a str) -> &'a str {
+fn max<'a>(s1: &'a str, s2: &'a str) -> &'a str {
     if s1 > s2 {
         s1
     } else {
